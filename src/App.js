@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import TopBar from './Components/TopBar';
-import MainSection from './Components/MainSection';
-import Footer from './Components/Footer';
-import Dialog from './Components/Dialog';
-import DialogCover from './Components/DialogCover';
+import TopBar from './components/TopBar';
+import MainSection from './components/MainSection';
+import Footer from './components/Footer';
+import Dialog from './components/Dialog';
+import DialogCover from './components/DialogCover';
 import { useState } from 'react';
-import MainPage from './Components/MainPage';
+import MainPage from './components/MainPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DetailsApartman from './DetailsApartman';
 function App() {
